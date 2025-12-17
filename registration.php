@@ -1,10 +1,8 @@
 <?php
 $errors = [];
 $success = "";
-$isSubmitted=false;
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['register'])) {
-	$isSubmitted=true;
 
 
     $name = trim($_POST['name']);
